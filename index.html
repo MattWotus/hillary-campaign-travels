@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hillary Clinton's Campaign Travels</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="text-center"> Hillary Clinton's Travels During the Homestretch of the 2016 Election</h1>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center">
+            <div class="col-12 col-xl-10">
+                <p class="text-center">The map below shows the travels of former Democratic Party presidential nominee Hillary Clinton in chronological order from October 2, 2016, through Election Day. Navigate through her itinerary by clicking on each marker to view details about her stop and how many miles she traveled to get there. (Note: Blue circles indicate multiple stops in that city. Click on a circle to view each separate visit.)</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div id="map"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <button id="center">Center Map</button>
+            </div>
+        </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgy8LzcrzHLkGU97C0EgbAMfJJSv89-BI">
+    </script>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script
+        src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js">
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
